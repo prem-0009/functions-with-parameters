@@ -3,8 +3,32 @@
 Your code goes below.
 
 */
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'prem';
+let greeting = 'HEY';
+ 
+function multiply(a){
+  x = x * a;
 
+}
 
+function modYBy(a){
+  y=y%a;
+}
+
+function opposite(a){
+  z=-a;
+}
+
+function makeFullName( sherpa){
+  name=name+' '+ sherpa;
+}
+
+function yellAt(bye){
+  greeting = greeting + ','+ ' '+bye+'!';
+}
 
 
 
