@@ -6,12 +6,11 @@ Your code goes below.
 let x = 3;
 let y = 10;
 let z = 5;
-let name = 'prem';
+let name = 'firstName';
 let greeting = 'HEY';
  
 function multiply(a){
   x = x * a;
-
 }
 
 function modYBy(a){
@@ -22,8 +21,8 @@ function opposite(a){
   z=-a;
 }
 
-function makeFullName( sherpa){
-  name=name+' '+ sherpa;
+function makeFullName(lastName){
+  name=name+' '+ lastName;
 }
 
 function yellAt(bye){
@@ -121,7 +120,7 @@ describe('makeFullName', () => {
   })
 });
 
-describe('yellAt', () => {
+describe('yellAt', () => { 
   it(`makes greeting into a string that yells the greeting at someone`, () => {
     yellAt('Colin');
     expect(greeting).toEqual(`HEY, Colin!`);
